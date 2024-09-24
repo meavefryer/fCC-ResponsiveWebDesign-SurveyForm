@@ -32,7 +32,7 @@
       <fieldset>
         <legend>Buying Preferences</legend>
 
-        <label for="dropdown" id="dropdown-label">I prefer to buy <strong>furniture</strong>...<select id="dropdown" name="dropdown"/>
+        <label for="dropdown" id="dropdown-label">I prefer to buy <strong>furniture</strong>...<select id="dropdown" name="dropdown">
           <option value="">(select one)</option>
           <option value="1">New</option>
           <option value="2">Used</option>
@@ -40,7 +40,7 @@
         </select>
         </label>
 
-        <label for="decor" id="decor-label">I prefer to buy <strong>household decor</strong>...<select id="decor" name="decor"/>
+        <label for="decor" id="decor-label">I prefer to buy <strong>household decor</strong>...<select id="decor" name="decor">
           <option value="">(select one)</option>
           <option value="1">New</option>
           <option value="2">Used</option>
@@ -48,7 +48,7 @@
         </select>
         </label>
         
-        <label for="clothing" id="clothing-label">I prefer to buy <strong>clothing</strong>...<select id="clothing" name="clothing"/>
+        <label for="clothing" id="clothing-label">I prefer to buy <strong>clothing</strong>...<select id="clothing" name="clothing">
           <option value="">(select one)</option>
           <option value="1">New</option>
           <option value="2">Used</option>
@@ -56,7 +56,7 @@
         </select>
         </label>
         
-        <label for="accessories" id="accessories-label">I prefer to buy <strong>furniture</strong>...<select id="accessories" name="accessories"/>
+        <label for="accessories" id="accessories-label">I prefer to buy <strong>furniture</strong>...<select id="accessories" name="accessories">
           <option value="">(select one)</option>
           <option value="1">New</option>
           <option value="2">Used</option>
