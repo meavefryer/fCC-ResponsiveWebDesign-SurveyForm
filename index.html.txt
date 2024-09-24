@@ -1,0 +1,130 @@
+<!-- Meave Fryer 09/23/24 -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Buying Preferences</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <h1 id="title">Buying Preferences</h1>
+    <p id="description">Please share your preferences for buying furniture, household decor, clothing, and accessories new, used, or upcycled.</p>
+
+    <form id="survey-form" method="post" action='https://buying-preferences-demo.some-website.org'>
+      <fieldset>
+        
+        <legend>Personal Information</legend>
+
+<!-- TEXT RESPONSE -->        
+        <label for="name" id="name-label">First and Last Name <input type="text" id="name" name="name" placeholder="Jane Doe" required/></label>
+
+<!-- EMAIL RESPONSE -->       
+        <label for="email" id="email-label">Email Address <input type="email" id="email" name="email" placeholder="janedoe@email.com" required/></label>
+
+<!-- NUMERIC RESPONSE -->       
+        <label for="number" id="number-label">Age (optional)<input type="number" min="13" max="120" id="number" name="number" placeholder="#"/></label>
+      </fieldset>
+
+<!-- DROPDOWN LISTS -->
+      <fieldset>
+        <legend>Buying Preferences</legend>
+
+        <label for="dropdown" id="dropdown-label">I prefer to buy <strong>furniture</strong>...<select id="dropdown" name="dropdown"/>
+          <option value="">(select one)</option>
+          <option value="1">New</option>
+          <option value="2">Used</option>
+          <option value="3">Upcycled</option>
+        </select>
+        </label>
+
+        <label for="decor" id="decor-label">I prefer to buy <strong>household decor</strong>...<select id="decor" name="decor"/>
+          <option value="">(select one)</option>
+          <option value="1">New</option>
+          <option value="2">Used</option>
+          <option value="3">Upcycled</option>
+        </select>
+        </label>
+        
+        <label for="clothing" id="clothing-label">I prefer to buy <strong>clothing</strong>...<select id="clothing" name="clothing"/>
+          <option value="">(select one)</option>
+          <option value="1">New</option>
+          <option value="2">Used</option>
+          <option value="3">Upcycled</option>
+        </select>
+        </label>
+        
+        <label for="accessories" id="accessories-label">I prefer to buy <strong>furniture</strong>...<select id="accessories" name="accessories"/>
+          <option value="">(select one)</option>
+          <option value="1">New</option>
+          <option value="2">Used</option>
+          <option value="3">Upcycled</option>
+        </select>
+        </label>
+      </fieldset>
+
+<!-- RADIO BUTTONS -->
+      <fieldset>
+        <legend>Considerations When Buying</legend>
+        <fieldset class="subset">
+          <p>The <strong>most</strong> important thing to me when buying items is...
+          <label for="1-price" id="1-price-label"><input type="radio" id="1-price" name="1-consid" value="1-price" class="inline" checked />Low price</label>
+        
+         <label for="1-quality" id="1-quality-label"><input type="radio" id="1-quality" name="1-consid" value="1-quality" class="inline"/>Good quality</label>
+        
+          <label for="1-style" id="1-style-label"><input type="radio" id="1-style" name="1-consid" value="1-style" class="inline"/>Style</label>
+        </fieldset>
+
+        <fieldset class="subset">
+          <p>The <strong>second most</strong> important thing to me when buying items is...
+          <label for="2-price" id="2-price-label"><input type="radio" id="2-price" name="2-consid" value="2-price" checked class="inline"/>Low price</label>
+        
+          <label for="2-quality" id="2-quality-label"><input type="radio" id="2-quality" name="2-consid" value="2-quality" class="inline"/>Good quality</label>
+        
+          <label for="2-style" id="2-style-label"><input type="radio" id="2-style" name="2-consid" value="2-style" class="inline"/>Style</label>
+        </fieldset>
+      </fieldset>
+
+<!-- CHECKBOXES -->
+      <fieldset>
+        <legend>Buying Upcycled Items</legend>
+        <fieldset class="subset">
+          <p>I would consider buying upcycled...
+          <label for="furniture"><input type="checkbox" id="furniture" value="1" class="inline"/>Furniture</label>
+          <label for="decor"><input type="checkbox" id="decor" value="2" class="inline"/>Household decor</label>
+          <label for="clothing"><input type="checkbox" id="clothing" value="3" class="inline"/>Clothing</label>
+          <label for="accessories"><input type="checkbox" id="accessories" value="4" class="inline"/>Accessories</label>
+        </fieldset>
+
+        <fieldset class="subset">
+          <p>I would consider buying upcycled items from...
+          <label for="facebook"><input type="checkbox" id="facebook" value="1" class="inline" />Facebook Marketplace</label>
+          <label for="offerup"><input type="checkbox" id="offerup" value="2" class="inline"/>OfferUp</label>
+          <label for="craigslist"><input type="checkbox" id="craigslist" value="3" class="inline"/>Craigslist</label>
+          <label for="poshmark"><input type="checkbox" id="poshmark" value="4" class="inline"/>Poshmark</label>
+          <label for="etsy"><input type="checkbox" id="etsy" value="5" class="inline"/>Etsy</label>
+        </fieldset>
+      </fieldset>
+
+<!-- FREE RESPONSE / TEXTAREA -->
+      <fieldset>
+        <legend>The Good and Bad of Upcycled Items</legend>
+        <fieldset class="subset">
+          <label for="good-upcycle">Please list some reasons why you have or would purchase upcycled items.<textarea></textarea></label>
+        </fieldset>
+        <fieldset class="subset">
+          <label for="bad-upcycle">Please list some reasons why you have or would avoid purchasing upcycled items.<textarea></textarea></label>
+        </fieldset>
+      </fieldset>
+
+<!-- SUBMIT -->
+    <input type="submit" value="Submit" id="submit" />
+
+
+
+    </form>
+  </body>
+
+</html>

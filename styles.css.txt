@@ -1,0 +1,42 @@
+body {
+  background-color: rgba(204,195,185,.70);
+  color: rgba(50, 50, 50);
+  font-family: "Courier New";
+  font-size: 16px;
+}
+
+
+label {
+  display: block;
+  margin: 0.5rem 0
+}
+
+input {
+  width: 100%;
+}
+
+legend {
+  font-weight: bold;
+}
+
+fieldset[class="subset"] {
+  border: none;
+}
+
+.inline {
+  display: inline;
+  width: unset;
+  margin: 0 .75em 0 0;
+  vertical-align: middle;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 40%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: rgba(204,195,185,.8);
+  border-color: rgba(204,195,185,.4);
+  min-width: 200px;
+}
