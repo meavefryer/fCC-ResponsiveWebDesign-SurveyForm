@@ -13,7 +13,7 @@
     <h1 id="title">Buying Preferences</h1>
     <p id="description">Please share your preferences for buying furniture, household decor, clothing, and accessories new, used, or upcycled.</p>
 
-    <form id="survey-form" method="post" action='https://buying-preferences-demo.some-website.org'>
+    <form id="survey-form" method="post">
       <fieldset>
         
         <legend>Personal Information</legend>
