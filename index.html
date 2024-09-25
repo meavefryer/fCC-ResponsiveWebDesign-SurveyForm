@@ -13,7 +13,7 @@
     <h1 id="title">Buying Preferences</h1>
     <p id="description">Please share your preferences for buying furniture, household decor, clothing, and accessories new, used, or upcycled.</p>
 
-    <form id="survey-form" method="post">
+    <form id="survey-form" method="post" action="https://formspree.io/f/xyzgqawe">
       <fieldset>
         
         <legend>Personal Information</legend>
@@ -118,6 +118,10 @@
           <label for="bad-upcycle">Please list some reasons why you have or would avoid purchasing upcycled items.<textarea></textarea></label>
         </fieldset>
       </fieldset>
+
+<!-- HIDDEN UNIQUE IDENTIFIER-->
+      <input type="hidden" name="_subject" value="Survey Form Submission" />
+
 
 <!-- SUBMIT -->
     <input type="submit" value="Submit" id="submit" />
